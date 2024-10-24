@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger House</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav_header">
+          <div class="nav_logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav_logo_dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav_logo_white"
+              />
+            </a>
+          </div>
+
+          <div id="menu-btn" class="nav_menu_btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+
+        <ul class="nav_links" id="nav_links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Special">special</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="section_container header_container" id="Home">
+        <div class="header_image">
+          <img src="assets/header.png" alt="" />
+        </div>
+
+        <div class="header_content">
+          <h2>It is good time for the greate taste of burger</h2>
+          <h1>Burger <br /><span>Week</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section_container banner_container" id="Special">
+
+      <div class="banner_card">
+        <p>try out it today</p>
+        <h4>most popular burger</h4>
+      </div>
+
+      <div class="banner_card">
+        <p>try out it today</p>
+        <h4>most <br>more taste</h4>
+      </div>
+
+      <div class="banner_card">
+        <p>try out it today</p>
+        <h4>fresh & chill</h4>
+      </div>
+
+    </section>
+
+
+    <section class="section_container order_container" id="menu">
+        <h3>Always tastey nurger</h3>
+        <h2 class="section_header">
+            choose and enjoy
+        </h2>
+        <p clas="section_description">
+            whether you crace classic flavours or daruing combination 
+            title is where your culinart jpourney binhs,indulfe you cravin
+            g and savour every bite
+        </p> 
+        <div class="order_grid">
+
+            <div class="order_card">
+                <img src="assets/order-1.png" alt="">
+                <h4>stuffed burger</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores necessitatibus beatae t
+                    empora ab hic nemo excepturi perspiciatis atque porro? 
+                    Nam sequi reprehenderit, maxime est consectetur expedita eaque voluptatum perferendis?
+                </p>
+                <button class="btn">order now</button>
+            </div>
+
+            <div class="order_card">
+                <img src="assets/order-2.png" alt="">
+                <h4>stuffed burger</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores necessitatibus beatae t
+                    empora ab hic nemo excepturi perspiciatis atque porro? 
+                    Nam sequi reprehenderit, maxime est consectetur expedita eaque voluptatum perferendis?
+                </p>
+                <button class="btn">order now</button>
+            </div>
+
+            <div class="order_card">
+                <img src="assets/order-3.png" alt="">
+                <h4>stuffed burger</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores necessitatibus beatae t
+                    empora ab hic nemo excepturi perspiciatis atque porro? 
+                    Nam sequi reprehenderit, maxime est consectetur expedita eaque voluptatum perferendis?
+                </p>
+                <button class="btn">order now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_container event_container" id="event">
+
+        <div class="event_content">
+
+            <div class="event_image">
+                <img src="assets/event.png" alt="event">
+            </div>
+            <div class="event_details">
+                <h3>discover</h3>
+                <h2 class="section_header">upcoming events</h2>
+
+                <p class="section_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, libero?
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="reservation" id="Contact">
+        <div class="section_container reservation_container">
+            <h3>reservation</h3>
+            <h2 class="section_header">book your table</h2>
+
+            <form action="/">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="email">
+                <input type="date" placeholder="date">
+                <input type="time" placeholder="time">
+                <input type="number" placeholder="People">
+                <button class="btn" type="submit">Find table</button>
+
+            </form>
+        </div>
+        <img src="assets/reservation-bg-1.png" alt="reservation" class="reservation_bg-1">
+        <img src="assets/reservation-bg-2.png" alt="reservation" class="reservation_bg-2">
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
